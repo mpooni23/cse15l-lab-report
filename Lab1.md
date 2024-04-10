@@ -4,13 +4,13 @@
 
 ![Image](cd without arguments.png)
 
-When we cd without an argument we go to the users home directory. The working directory is /workspaces/lecture1 when the command was run. When you run the cd command without arguments the working directory would change to the home directory of the user, which is /home/codespace. The ouput is not an error.
+When we cd without an argument we go to the users home directory. The working directory is /workspaces/lecture1 when the command was run. When you run the cd command without arguments the working directory would change to the home directory of the user, which is /home/codespace. The output is not an error.
 
 # **2. An example of using the ls command with no arguments**
 
 ![Image](ls without arguments.png)
 
-When we ls without an argument, it lists the contents in the current directory. The working directory is /workspaces/lecture1 when the command was run. When you run the ls command without arguments it lists the contents of the current working directory. The ouput is not an error.
+When we ls without an argument, it lists the contents in the current directory. The working directory is /workspaces/lecture1 when the command was run. When you run the ls command without arguments it lists the contents of the current working directory. The output is not an error.
 
 # **3. An example of using the cat command with no arguments**
 
