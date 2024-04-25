@@ -89,7 +89,7 @@ When the path is just "\", the contents of the String s is returned, none of the
 
 **1. Which methods in your code are called?**
    
-When we click http://localhost:4000/add-message?s=How are you&user=yash in the browser,on receiving this message the webserver calls the handlerequest() method of the Handler2 class passing in the provided URI /add-message?s=Hello&user=jpolitz. This method checks if the URL path contains "/add-message". If such is the case, it then extracts the given querystring and parses the querystring to extract the message and the username. For the message it checks to see if the key is equal to "s" and for the username it checks to see the key is "user" and then it adds to the string s which is a declared as a property at the instance level, the string produced by concatenating the ```<username>: <message>```. It then returns the String s as the return value (responds with the entire string so far).
+When we click http://localhost:4000/add-message?s=How are you&user=yash in the browser,on receiving this message the webserver calls the handlerequest() method of the Handler2 class passing in the provided URI /add-message?s=How are you&user=yash. This method checks if the URL path contains "/add-message". If such is the case, it then extracts the given querystring and parses the querystring to extract the message and the username. For the message it checks to see if the key is equal to "s" and for the username it checks to see the key is "user" and then it adds to the string s which is a declared as a property at the instance level, the string produced by concatenating the ```<username>: <message>```. It then returns the String s as the return value (responds with the entire string so far).
 
 ```
    1. handleRequest(URI url)
