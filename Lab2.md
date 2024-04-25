@@ -125,5 +125,17 @@ Initially String s = "jpolitz" : Hello\n". Then the string s = "jpolitz" : Hello
 
 When the path is just "\", the contents of the String s is returned, none of the values get affected.
 
+# PART 2
 
+# **1. Private Key**
+![Image](ssh private key.png)
 
+# **2. Public Key**
+![Image](ssh public key.png)
+
+# **3. Terminal Interaction**
+![Image](ssh into ieng6.png)
+
+# PART 3
+
+In this lab, I learned how to generate private and public keys using ssh-keygen. I also learned how to log into ieng6 without being asked for a password. Furthermore, I learnt how a web server processes incoming requests and how to write code to respond to such requests. 
