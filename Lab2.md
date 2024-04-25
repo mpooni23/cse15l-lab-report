@@ -39,17 +39,14 @@ class ChatServer {
     }
 }
 ```
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
 # **2. Two screen shots of /add-message**
 
 ![Image](Lab 2 Screenshot 1.png)
 
 **1. Which methods in your code are called?**
-    The server is listening for incoming messages at the specified port (4000). When we click http://localhost:4000/add-message?s=Hello&user=jpolitz in the browser, on receiving this message the webserver calls the handlerequest() method of the Handler2 class passing in the provided URI /add-message?s=Hello&user=jpolitz. This method checks if the URL path contains "/add-message". If such is the case, it then extracts the given querystring and parses the querystring to extract the message and the username. For the message it checks to see if the key is equal to "s" and for the username it checks to see the key is "user" and then it adds to the string s which is a declared as a property at the instance level, the string produced by concatenating the ```<username>:<message>```. It then returns the String s as the return value (responds with the entire string so far).
+
+The server is listening for incoming messages at the specified port (4000). When we click http://localhost:4000/add-message?s=Hello&user=jpolitz in the browser, on receiving this message the webserver calls the handlerequest() method of the Handler2 class passing in the provided URI /add-message?s=Hello&user=jpolitz. This method checks if the URL path contains "/add-message". If such is the case, it then extracts the given querystring and parses the querystring to extract the message and the username. For the message it checks to see if the key is equal to "s" and for the username it checks to see the key is "user" and then it adds to the string s which is a declared as a property at the instance level, the string produced by concatenating the ```<username>:<message>```. It then returns the String s as the return value (responds with the entire string so far).
 
 
 ```
