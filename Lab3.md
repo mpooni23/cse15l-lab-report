@@ -64,7 +64,7 @@ I chose the find command. The 4 interesting command line options for the find co
 4) -size n[cwbkMG] - finds the files with the given size 
 5) -exec command -  executes the given command on the matched files 
 
-# ** 1. If we want to find files which begin with "Chapter" with any file name extension recursively from the current directory and print the result we issue the following command.**
+# 1. If we want to find files which begin with "Chapter" with any file name extension recursively from the current directory and print the result we issue the following command.
 
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -name "chapter*.*" 
@@ -86,21 +86,21 @@ I chose the find command. The 4 interesting command line options for the find co
 ./technical/911report/chapter-1.txt
 ```
 
-# ** 2. If we want to find directories which begin with "911" recursively from the current directory and print the result we issue the following command.**
+# 2. If we want to find directories which begin with "911" recursively from the current directory and print the result we issue the following command.
 
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -name "911*"
 ./technical/911report
 ```
 
-# ** 3. If we want to find all the files with the name that have pre-push.sample recursively from the current directory and print the result, we issue the following command.**
+# 3. If we want to find all the files with the name that have pre-push.sample recursively from the current directory and print the result, we issue the following command.
 
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -name  "pre-push.sample" -type f
 ./.git/hooks/pre-push.sample
 ```
 
-# ** 4. If we want to find all the directories recursively from the current directory and list them then we can issue the command below.**
+# 4. If we want to find all the directories recursively from the current directory and list them then we can issue the command below.
    
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -type d 
@@ -136,13 +136,13 @@ I chose the find command. The 4 interesting command line options for the find co
 ./.git/branches
 ```
 
-# ** 5. If we want to find all the files with size greater than 1000k, where k is in units kibibytes (units of 1024 bytes) recursively from the current directory and list them then we can issue the command below.**
+# 5. If we want to find all the files with size greater than 1000k, where k is in units kibibytes (units of 1024 bytes) recursively from the current directory and list them then we can issue the command below.
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -type f -size +1000k
 ./.git/objects/pack/pack-f3e64844a2bd252cbb7d4b547cb60beb349fd441.pack
 ```
 
-# ** 6. If we want to find all the directories with size greater than 10k, where k is in units kibibytes (units of 1024 bytes) recursively from the current directory and list them then we can issue the command below.**
+# 6. If we want to find all the directories with size greater than 10k, where k is in units kibibytes (units of 1024 bytes) recursively from the current directory and list them then we can issue the command below.
    
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -type d -size +10k
@@ -151,14 +151,14 @@ I chose the find command. The 4 interesting command line options for the find co
 ./technical/government/Media
 ```
 
-# **7. If we want to find files which contain the string "Tuesday, September 11, 2001" and print the filename,the line number and the line within the file where the string appears recursively from the current directory, we -provide the command below.**
+# 7. If we want to find files which contain the string "Tuesday, September 11, 2001" and print the filename,the line number and the line within the file where the string appears recursively from the current directory, we -provide the command below.
    
 ```  
 @mpooni23 ➜ /workspaces/docsearch (main) $  find . -type f -exec grep -nH "Tuesday, September 11, 2001" {} \;
 ./technical/911report/chapter-1.txt:6:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 ```   
 
-# ** 8. If we want to find directories with the name "origin" and do a long listing of the directory recursively from the current directory we issue the command below.**
+# 8. If we want to find directories with the name "origin" and do a long listing of the directory recursively from the current directory we issue the command below.
 
 ```
 @mpooni23 ➜ /workspaces/docsearch (main) $ find . -name "origin" -type d -exec ls -ld {} \;
