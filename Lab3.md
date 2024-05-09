@@ -151,7 +151,7 @@ I chose the find command. The 4 interesting command line options for the find co
 ./technical/government/Media
 ```
 
-# 7. If we want to find files which contain the string "Tuesday, September 11, 2001" and print the filename,the line number and the line within the file where the string appears recursively from the current directory, we -provide the command below.
+# 7. If we want to find files which contain the string "Tuesday, September 11, 2001" and print the filename,the line number and the line within the file where the string appears recursively from the current directory, we provide the command below.
    
 ```  
 @mpooni23 ➜ /workspaces/docsearch (main) $  find . -type f -exec grep -nH "Tuesday, September 11, 2001" {} \;
@@ -167,8 +167,9 @@ drwxrwxrwx+ 2 codespace codespace 4096 May  9 03:47 ./.git/logs/refs/remotes/ori
 ```
 
 # Sources:
-
+```
 https://unix.stackexchange.com/questions/638335/find-command-size-behavior
 https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux
 https://www.geeksforgeeks.org/how-to-recursively-find-all-files-in-current-and-subfolders-based-on-wildcard-matching-in-linux/
 https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+```
