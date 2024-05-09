@@ -158,11 +158,17 @@ I chose the find command. The 4 interesting command line options for the find co
 ./technical/911report/chapter-1.txt:6:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 ```   
 
-8. 
+8. If we want to find directories with the name origin and do a long listing of the directory, we issue the command below.
 
 ```
-
+@mpooni23 ➜ /workspaces/docsearch (main) $ find . -name "origin" -type d -exec ls -ld {} \;
+drwxrwxrwx+ 2 codespace codespace 4096 May  9 03:47 ./.git/refs/remotes/origin
+drwxrwxrwx+ 2 codespace codespace 4096 May  9 03:47 ./.git/logs/refs/remotes/origin
 ```
+
 Sources:
+https://unix.stackexchange.com/questions/638335/find-command-size-behavior
+
+
 
 
