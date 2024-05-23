@@ -32,7 +32,7 @@ step 9.Commit and push the resulting change to your Github account (you can pick
 
 ![Image](clone the forked repo-2.png)
 
-**Keys Pressed**: To complete this step, press ```<enter>``` key after the command displayed from bash history `git clone git@github.com:mpooni23/lab7.git``` on the command prompt. The resulting screenshot shown above demonstrates the cloning of the forked repository.
+**Keys Pressed**: To complete this step, press ```<enter>``` key after the command displayed from bash history ```git clone git@github.com:mpooni23/lab7.git``` on the command prompt. The resulting screenshot shown above demonstrates the cloning of the forked repository.
 
 # **6. Run the tests, demonstrating that they fail**
 
