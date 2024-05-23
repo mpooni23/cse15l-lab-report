@@ -50,17 +50,18 @@ step 9.Commit and push the resulting change to your Github account (you can pick
 
 **Keys Pressed**: To complete this step, what I did was type ```vim  ListExamples.java``` on the command prompt followed by pressing the ```<enter>``` key. Then in the vim editor I pressed the ```k (up)``` key 6 times, and press ```l (right)``` key 11 times. Then I pressed the ```x (delete character)``` key to delete the 1 in index1 and it was followed by pressing the ```i (inserted before cursor)``` key to insert a 2 to change index1 to index2. Next, you need to type ```<ESC>   :wq   <ENTER>```  to save the changes.
 
-# **8 Run the tests, demonstrating that they now succeed**
+# **8. Run the tests, demonstrating that they now succeed**
 
 ![Image](show succeeding tests-2.png)
 
 Then I typed ```bash test.sh``` followed by ```<enter>```to execute the bash script file test.sh. This resulted in all the tests succeeding, as shown in the resulting screenshot.
 
-# **9 Commit and push the resulting change to your Github account (you can pick any commit message!)**
+# **9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
 ![Image](Precommit.png)
 
 ![Image](Gitcommit.png)
 
 ![Image](git push.png)
+
 **Keys Pressed**: To complete this step, what I did was type ```git add L<tab>.java``` on the command prompt followed by pressing the ```<enter>``` key. This is followed by entering the command ```git commit -m "Changed list1 to list2"``` followed by pressing the ```<enter>``` key. Then I ran ```git push``` to push the changes to my github account.
