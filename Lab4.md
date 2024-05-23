@@ -44,7 +44,7 @@ step 9.Commit and push the resulting change to your Github account (you can pick
 
 ![Image](Editing vim file.png)
 
-**Keys Pressed**: Type vim L <tab>.java<enter>
+**Keys Pressed**: Type ```vim L <tab>.java<enter>```
 
 ![Image](vim ListExamples-2.png)
 
