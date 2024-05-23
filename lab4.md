@@ -62,5 +62,5 @@ Then I typed ```bash test.sh``` followed by ```<enter>```to execute the bash scr
 
 ![Image](Gitcommit.png)
 
-![Image](post commit.png)
+![Image](git push.png)
 **Keys Pressed**: To complete this step, what I did was type ```git add L<tab>.java``` on the command prompt followed by pressing the ```<enter>``` key. This is followed by entering the command ```git commit -m "Changed list1 to list2"``` followed by pressing the ```<enter>``` key. Then I ran ```git push``` to push the changes to my github account.
