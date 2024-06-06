@@ -7,6 +7,7 @@ For this lab report, we are asked to describe a debugging scenario as a conversa
 # **1.  Original Piazza Post and Response**
 
 Original Post from Student:
+
 Hello, I am experiencing an issue with my code. I am trying to merge two sorted lists of integers into a single list, by calling a method called **merge**. The **merge** method takes the two sorted lists as its parameters. The merge algorithm runs a while loop, running from the beginning to the lengths of the lists comparing elements in the first list with the elements in the second list. It starts the comparison starting from index 0 of the first list, with the element at index 0 of the second list. The smaller of the two elements gets added to a new combined list, and its index gets incremented. Also the index of the list from which the element was copied to the new combined list gets incremented. However, I seem to be running into a series of bugs while running the Junits. It says "array lengths differed, expected.length=4 actual.length=2;". I can't figure out how to fix them. My guess here would be something to do with the way the integers are being added to the merged list. Any advice would be helpful and appreciated! I've included the output of the junit tests below for reference. Please let me know, thank you!
 
 ```
